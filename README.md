@@ -3,13 +3,15 @@
 ### Задание 1
 
 `terraform --version`
-1
+
 Версия Terraform:
+
 ![ter-ver](/img/ter-ver.png)
 
 `git clone https://github.com/netology-code/ter-homeworks.git`
 
 Склонированный репозиторий:
+
 ![ter-clone](/img/ter-clone.png)
 
 #### 1.
@@ -17,6 +19,7 @@
 `terraform init`
 
 Скачанные зависимости:
+
 ![ter-init](/img/ter-init.png)
 
 #### 2.
@@ -28,6 +31,7 @@
 `terraform apply --auto-approve`
 
 Применение кода:
+
 ![ter-apply](/img/ter-apply.png)
 
 Строчка со значением random_password:
@@ -57,6 +61,7 @@ resource "docker_container" "1nginx" {
 `terraform validate`
 
 Ошибки:
+
 ![ter-error](/img/ter-error.png)
 
 Объяснение ошибок:
@@ -102,10 +107,12 @@ resource "docker_container" "nginx_container" {
 `docker ps`
 
 Применение нового кода:
+
 ![ter-new-1](/img/ter-new-1.png)
 ![ter-new-2](/img/ter-new-2.png)
 
 docker ps:
+
 ![docker-ps-1](/img/docker-ps-1.png)
 
 #### 6.
@@ -137,6 +144,7 @@ resource "docker_container" "nginx_container" {
 `docker ps`
 
 docker ps:
+
 ![docker-ps-2](/img/docker-ps-2.png)
 
 #### 7.
@@ -158,6 +166,7 @@ docker ps:
 ```
 
 Удаление ресурсов:
+
 ![ter-destroy](/img/ter-destroy.png)
 
 Образ не удалился после применения 
@@ -168,4 +177,5 @@ docker ps:
 `terraform destroy`
 
 подтверждение из документации:
+
 ![ter-doc](/img/ter-doc.png)
