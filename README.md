@@ -3,7 +3,7 @@
 ### Задание 1
 
 `terraform --version`
-
+1
 Версия Terraform:
 ![ter-ver](/img/ter-ver.png)
 
